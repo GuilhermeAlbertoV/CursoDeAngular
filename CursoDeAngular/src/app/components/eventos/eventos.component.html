@@ -1,1 +1,6 @@
-<p>eventos works!</p>
+<div class="class">
+  <p *ngIf="show" (click)="easterEgg()">Exibindo mensagem</p>
+  <button (click)="showMessage()">Clique em mim</button>
+
+  <p *ngIf="secret">Você descobriu um segredo:O</p>
+</div>

@@ -8,9 +8,10 @@ import { ParentDataComponent } from './components/parent-data/parent-data.compon
 import { DirectivesComponent } from './components/directives/directives.component';
 import { IfRenderComponent } from './components/if-render/if-render.component';
 import { EventosComponent } from './components/eventos/eventos.component';
+import { EmitterComponent } from './components/emitter/emitter.component';
 
 @NgModule({
-  declarations: [AppComponent, FirstComponentComponent, ParentDataComponent, DirectivesComponent, IfRenderComponent, EventosComponent],
+  declarations: [AppComponent, FirstComponentComponent, ParentDataComponent, DirectivesComponent, IfRenderComponent, EventosComponent, EmitterComponent],
   imports: [BrowserModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
