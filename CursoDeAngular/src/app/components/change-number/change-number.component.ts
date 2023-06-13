@@ -1,4 +1,4 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-change-number',
@@ -9,8 +9,6 @@ export class ChangeNumberComponent {
   constructor() {
     this.handleClick();
   }
-
-  @Input() num: number = 0;
   @Output() changeNumber: EventEmitter<number> = new EventEmitter();
 
   handleClick() {
