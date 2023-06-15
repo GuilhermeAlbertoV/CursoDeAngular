@@ -13,6 +13,7 @@ import { ChangeNumberComponent } from './components/change-number/change-number.
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { TesteUsandoFuncionalidadesComponent } from './components/teste-usando-funcionalidades/teste-usando-funcionalidades.component';
 import { PipesComponent } from './components/pipes/pipes.component';
+import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { PipesComponent } from './components/pipes/pipes.component';
     ListRenderComponent,
     TesteUsandoFuncionalidadesComponent,
     PipesComponent,
+    TwoWayBindingComponent,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
