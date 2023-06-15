@@ -12,9 +12,22 @@ import { EmitterComponent } from './components/emitter/emitter.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { TesteUsandoFuncionalidadesComponent } from './components/teste-usando-funcionalidades/teste-usando-funcionalidades.component';
+import { PipesComponent } from './components/pipes/pipes.component';
 
 @NgModule({
-  declarations: [AppComponent, FirstComponentComponent, ParentDataComponent, DirectivesComponent, IfRenderComponent, EventosComponent, EmitterComponent, ChangeNumberComponent, ListRenderComponent, TesteUsandoFuncionalidadesComponent],
+  declarations: [
+    AppComponent,
+    FirstComponentComponent,
+    ParentDataComponent,
+    DirectivesComponent,
+    IfRenderComponent,
+    EventosComponent,
+    EmitterComponent,
+    ChangeNumberComponent,
+    ListRenderComponent,
+    TesteUsandoFuncionalidadesComponent,
+    PipesComponent,
+  ],
   imports: [BrowserModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],

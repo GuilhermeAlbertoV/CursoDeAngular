@@ -2,3 +2,7 @@ p {
   color: red;
   padding: 15px;
 }
+
+#quantidade {
+  width: 50px;
+}
