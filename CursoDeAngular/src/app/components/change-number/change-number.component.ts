@@ -9,7 +9,7 @@ export class ChangeNumberComponent {
   constructor() {
     this.handleClick();
   }
-  @Output() changeNumber: EventEmitter<number> = new EventEmitter();
+  @Output() changeNumber: EventEmitter<number | string> = new EventEmitter();
 
   handleClick() {
     this.changeNumber.emit();

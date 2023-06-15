@@ -1,0 +1,14 @@
+<p>não pode ver a lista com abaixo de 18</p>
+
+<p>Nome: {{ UserName }}</p>
+<p>Idade: {{ UserAge }}</p>
+
+<h2 *ngIf="UserAge >= 18">
+  Lista de Animais
+
+  <ul>
+    <li *ngFor="let animal of animals">
+      Nome: {{ animal.name }} | Raça: {{ animal.race }}
+    </li>
+  </ul>
+</h2>

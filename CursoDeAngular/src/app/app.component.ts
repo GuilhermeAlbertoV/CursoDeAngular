@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +14,9 @@ export class AppComponent {
     email: 'Algumacoisa@gmail.com',
     role: 'ADM',
   };
+
+  nome: string = String(document.getElementById('nome'));
+  idade: number = Number(document.getElementById('idade'));
 
   constructor() {
     this.nomeRandom();
