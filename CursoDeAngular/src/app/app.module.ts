@@ -14,6 +14,7 @@ import { ListRenderComponent } from './components/list-render/list-render.compon
 import { TesteUsandoFuncionalidadesComponent } from './components/teste-usando-funcionalidades/teste-usando-funcionalidades.component';
 import { PipesComponent } from './components/pipes/pipes.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
+import { TestesComServiceComponent } from './components/testes-com-service/testes-com-service.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { TwoWayBindingComponent } from './components/two-way-binding/two-way-bin
     TesteUsandoFuncionalidadesComponent,
     PipesComponent,
     TwoWayBindingComponent,
+    TestesComServiceComponent,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],

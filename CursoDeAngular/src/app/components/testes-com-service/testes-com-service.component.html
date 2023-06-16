@@ -1,0 +1,40 @@
+<div class="class">
+  <h1>Teste com Service</h1>
+
+  <h2 *ngFor="let compra of compras">
+    <hr />
+    <ul>
+      Produto:
+      {{
+        compra.name
+      }}
+      <li>
+        Descrição do Produto:
+        {{ compra.desc }}
+      </li>
+      <li>
+        Preço:
+
+        {{ compra.price }}
+      </li>
+      <li id="li">Quebravel: {{ compra.breakble }}</li>
+    </ul>
+  </h2>
+  <p>
+    Preço
+    <select name="price" id="price">
+      <option value="1">Acima de 1000</option>
+      <option value="2">Menor que 1000</option>
+    </select>
+  </p>
+
+  <p>
+    Quebravel
+    <select name="breakble" id="breakble">
+      <option value="1">Sim</option>
+      <option value="2">Não</option>
+    </select>
+  </p>
+
+  <button (click)="filtrar(compra)">Filtrar</button>
+</div>
